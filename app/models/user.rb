@@ -9,6 +9,10 @@ class User < ApplicationRecord
 
   validates :email, :username, presence:true
   validates :email, :username, uniqueness:true
+  validates :email, email_format:true
+  # without gem 'validates_email_format_of: validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
+  validates :username, length: { maximum: 40 }
+  validates :username, format: { with: /\A[a-zA-Z0-9\_]+\Z/ }
 
   attr_accessor :password
 
