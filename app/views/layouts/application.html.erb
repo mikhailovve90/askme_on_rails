@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Хорошие вопросы</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
@@ -12,13 +11,17 @@
   <body>
 
     <div class="header">
-    	<div class="header-logo">
-    	  <h1 class="header-title"><%= link_to "Хорошие вопросы", root_path %></h1>
+      <div class="container">
+    	  <div class="header-logo">
+    	    <h1 class="header-title"><%= link_to "Хорошие вопросы",   root_path %></h1>
+        </div>
       </div>
     </div>
 
     <div class="content">
-      <%= yield %>
+      <div class="container">
+        <%= yield %>
+      </div>
     </div>
 
   </body>
