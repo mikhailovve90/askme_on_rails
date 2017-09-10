@@ -12,9 +12,9 @@
   </h2>
 
   <h3 class="title-small buffer-both">
-    <%= @questions.size %> 
+    <%= "На вашей странице: " + sklonenie(@questions.size, "вопрос", "вопроса", "вопросов", true) %> 
   </h3>
-  
+
   <div class="user-ask-button container text-center">
     <%= link_to "Задай мне вопрос", '', class: 'button button-light', id: 'ask-button' %>
   </div>
