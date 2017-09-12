@@ -15,6 +15,8 @@ class UsersController < ApplicationController
 
     if @user.save
       redirect_to root_url, notice: 'Пользователь успешно зарегестрирован'
+    else
+      render 'new'
     end
   end
 
