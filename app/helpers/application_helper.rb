@@ -32,4 +32,8 @@ module ApplicationHelper
     end
     return "#{prefix} #{krokodilov}"
   end
+
+  def fa_icon(icon_class)
+    content_tag 'span', '', class: "fa-#{icon_class}"
+  end
 end

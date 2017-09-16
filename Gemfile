@@ -20,7 +20,7 @@ gem 'validates_email_format_of'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'font-awesome-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
