@@ -37,5 +37,7 @@ module ApplicationHelper
     content_tag 'span', '', class: "fa-#{icon_class}"
   end
 
-
+  def user_color(user)
+    user.color
+  end
 end
