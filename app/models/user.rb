@@ -16,7 +16,7 @@ class User < ApplicationRecord
   validates :color , format: { with: /\A[a-fA-f0-9#]+\Z/ }
   validates :color , length: { maximum: 8 }
 
-  attr_accessor :password, :avatar_url, :color
+  attr_accessor :password # :avatar_url, :color
 
   validates_presence_of :password, on: :create
   validates_confirmation_of :password
