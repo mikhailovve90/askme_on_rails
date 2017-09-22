@@ -17,6 +17,8 @@ class User < ApplicationRecord
   validates :color , length: { maximum: 8 }
 
   attr_accessor :password # :avatar_url, :color
+  #attr_writer :avatar_url, :color
+  #attr_reader :avatar_url, :color
 
   validates_presence_of :password, on: :create
   validates_confirmation_of :password
