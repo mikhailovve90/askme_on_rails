@@ -50,6 +50,13 @@
       <div class="form-action">
         <%= f.submit 'Сохранить', class: 'button button-dark button-small ' %>
       </div>      
-    <% end %>    
+    <% end %>  
+  </div>
+
+  <div class="column-1-4-right text-small">
+    <p> Удалить аккаунт
+    <%= link_to fa_icon('trash-o'), user_path(@user),
+        method: :delete, data: {confirm: 'Точно удалить аккаунт?'} %>
+    </p>
   </div>
 </div>

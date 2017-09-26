@@ -27,6 +27,14 @@ class UsersController < ApplicationController
     end
   end
 
+  def destroy
+    @user.destroy
+
+    if @user.destroy
+      redirect_to root_url, notice: 'Пользователь удалён'
+    end
+  end
+
   def update
     if @user.update(user_params)
       redirect_to user_path(@user), notice: 'Данные обновлены'
