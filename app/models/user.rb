@@ -13,8 +13,9 @@ class User < ApplicationRecord
   # without gem 'validates_email_format_of: validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
   validates :username, length: { maximum: 40 }
   validates :username, format: { with: /\A[a-zA-Z0-9\_]+\Z/ }
-  validates :color , format: { with: /\A[a-fA-f0-9#]+\Z/ }
-  validates :color , length: { maximum: 10 }
+  validates :color, format: { with: /\A[a-fA-f0-9#]+\Z/ }
+  validates :color, length: { maximum: 10 }
+  validates :avatar_url, :url => true
 
   attr_accessor :password #:color, :avatar_url
 
