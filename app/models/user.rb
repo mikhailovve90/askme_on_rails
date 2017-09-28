@@ -17,7 +17,7 @@ class User < ApplicationRecord
   validates :color, length: { maximum: 10 }
   validates :avatar_url, :url => true
 
-  attr_accessor :password #:color, :avatar_url
+  attr_accessor :password, :color, :avatar_url
 
   validates_presence_of :password, on: :create
   validates_confirmation_of :password
