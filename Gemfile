@@ -24,7 +24,9 @@ gem 'font-awesome-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
+
 gem 'validate_url'
+
 group :production do
   gem 'pg'
 end
