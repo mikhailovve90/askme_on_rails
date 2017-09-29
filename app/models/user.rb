@@ -16,7 +16,7 @@ class User < ApplicationRecord
   validates :color, format: { with: /\A[a-fA-f0-9#]+\Z/ }
   validates :color, length: { maximum: 10 }
   validates :avatar_url, allow_blank: true, :url => true
-  validates_size_of :avatar_url, maximum: 5.megabytes, message: "should be less than 5MB"
+  validates_size_of :avatar_url, maximum: 1.megabytes, message: "should be less than 1MB"
 
   attr_accessor :password #:color, :avatar_url
 
