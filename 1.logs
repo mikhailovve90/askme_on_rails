@@ -1,0 +1,142 @@
+2017-10-03T01:03:27.243959+00:00 heroku[web.1]: State changed from down to starting
+2017-10-03T01:03:30.883903+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 25784 -e production`
+2017-10-03T01:03:39.412322+00:00 heroku[web.1]: State changed from starting to up
+2017-10-03T01:03:39.181033+00:00 app[web.1]: => Rails 5.1.3 application starting in production on http://0.0.0.0:25784
+2017-10-03T01:03:39.181009+00:00 app[web.1]: => Booting Puma
+2017-10-03T01:03:39.181047+00:00 app[web.1]: [4] Puma starting in cluster mode...
+2017-10-03T01:03:39.181040+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2017-10-03T01:03:39.181052+00:00 app[web.1]: [4] * Version 3.9.1 (ruby 2.4.0-p0), codename: Private Caller
+2017-10-03T01:03:39.181053+00:00 app[web.1]: [4] * Min threads: 5, max threads: 5
+2017-10-03T01:03:39.181245+00:00 app[web.1]: [4] * Environment: production
+2017-10-03T01:03:39.181299+00:00 app[web.1]: [4] * Preloading application
+2017-10-03T01:03:39.181276+00:00 app[web.1]: [4] * Process workers: 2
+2017-10-03T01:03:39.202863+00:00 app[web.1]: [4] - Worker 0 (pid: 7) booted, phase: 0
+2017-10-03T01:03:39.181651+00:00 app[web.1]: [4] * Listening on tcp://0.0.0.0:25784
+2017-10-03T01:03:39.182348+00:00 app[web.1]: [4] Use Ctrl-C to stop
+2017-10-03T01:03:39.208028+00:00 app[web.1]: [4] - Worker 1 (pid: 11) booted, phase: 0
+2017-10-03T01:03:41.340633+00:00 heroku[router]: at=info method=GET path="/robots.txt" host=askror.herokuapp.com request_id=8b200e49-08e4-4b9c-8b7e-1a1721becc3d fwd="141.8.144.71" dyno=web.1 connect=1ms service=20ms status=200 bytes=228 protocol=https
+2017-10-03T01:03:41.911238+00:00 app[web.1]: [86ede7eb-6310-42ac-8d11-368936f25735] Started GET "/sign_up" for 84.201.133.100 at 2017-10-03 01:03:41 +0000
+2017-10-03T01:03:41.967475+00:00 app[web.1]: [86ede7eb-6310-42ac-8d11-368936f25735] Processing by UsersController#new as */*
+2017-10-03T01:03:42.287153+00:00 heroku[router]: at=info method=GET path="/sign_up" host=askror.herokuapp.com request_id=86ede7eb-6310-42ac-8d11-368936f25735 fwd="84.201.133.100" dyno=web.1 connect=1ms service=390ms status=200 bytes=4281 protocol=https
+2017-10-03T01:03:42.253798+00:00 app[web.1]: [86ede7eb-6310-42ac-8d11-368936f25735]   Rendering users/new.html.erb within layouts/application
+2017-10-03T01:03:42.264402+00:00 app[web.1]: [86ede7eb-6310-42ac-8d11-368936f25735]   Rendered users/new.html.erb within layouts/application (10.3ms)
+2017-10-03T01:03:42.276346+00:00 app[web.1]: [86ede7eb-6310-42ac-8d11-368936f25735] Completed 200 OK in 312ms (Views: 20.2ms | ActiveRecord: 56.1ms)
+2017-10-03T01:38:39.104752+00:00 heroku[web.1]: Idling
+2017-10-03T01:38:39.106133+00:00 heroku[web.1]: State changed from up to down
+2017-10-03T01:38:39.933513+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2017-10-03T01:38:39.964983+00:00 app[web.1]: [4] - Gracefully shutting down workers...
+2017-10-03T01:38:40.116101+00:00 app[web.1]: [4] === puma shutdown: 2017-10-03 01:38:40 +0000 ===
+2017-10-03T01:38:40.116107+00:00 app[web.1]: [4] - Goodbye!
+2017-10-03T01:38:40.116156+00:00 app[web.1]: Exiting
+2017-10-03T01:38:40.289595+00:00 heroku[web.1]: Process exited with status 0
+2017-10-03T03:21:55.087608+00:00 heroku[web.1]: Unidling
+2017-10-03T03:21:55.088303+00:00 heroku[web.1]: State changed from down to starting
+2017-10-03T03:22:00.054757+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 58855 -e production`
+2017-10-03T03:22:05.110969+00:00 app[web.1]: => Booting Puma
+2017-10-03T03:22:05.110987+00:00 app[web.1]: => Rails 5.1.3 application starting in production on http://0.0.0.0:58855
+2017-10-03T03:22:05.110994+00:00 app[web.1]: [4] * Version 3.9.1 (ruby 2.4.0-p0), codename: Private Caller
+2017-10-03T03:22:05.110989+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2017-10-03T03:22:05.110990+00:00 app[web.1]: [4] Puma starting in cluster mode...
+2017-10-03T03:22:05.110994+00:00 app[web.1]: [4] * Min threads: 5, max threads: 5
+2017-10-03T03:22:05.110995+00:00 app[web.1]: [4] * Environment: production
+2017-10-03T03:22:05.110995+00:00 app[web.1]: [4] * Process workers: 2
+2017-10-03T03:22:05.110996+00:00 app[web.1]: [4] * Preloading application
+2017-10-03T03:22:05.111086+00:00 app[web.1]: [4] * Listening on tcp://0.0.0.0:58855
+2017-10-03T03:22:05.111260+00:00 app[web.1]: [4] Use Ctrl-C to stop
+2017-10-03T03:22:05.116867+00:00 app[web.1]: [4] - Worker 1 (pid: 12) booted, phase: 0
+2017-10-03T03:22:05.115393+00:00 app[web.1]: [4] - Worker 0 (pid: 7) booted, phase: 0
+2017-10-03T03:22:05.486741+00:00 heroku[web.1]: State changed from starting to up
+2017-10-03T03:22:07.218278+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d] Started GET "/users/4" for 95.55.40.116 at 2017-10-03 03:22:07 +0000
+2017-10-03T03:22:07.228552+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d] Processing by UsersController#show as HTML
+2017-10-03T03:22:07.228618+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Parameters: {"id"=>"4"}
+2017-10-03T03:22:07.287090+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:22:07.330323+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   [1m[35m (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "questions" WHERE "questions"."user_id" = $1[0m  [["user_id", 4]]
+2017-10-03T03:22:07.331820+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "questions" WHERE "questions"."user_id" = $1 AND ("questions"."answer" IS NOT NULL)[0m  [["user_id", 4]]
+2017-10-03T03:22:07.334701+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendering users/show.html.erb within layouts/application
+2017-10-03T03:22:07.344862+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:22:07.981112+00:00 heroku[router]: at=info method=GET path="/users/4" host=askror.herokuapp.com request_id=db016b62-dbbb-4997-96cf-e104c6984a6d fwd="95.55.40.116" dyno=web.1 connect=2ms service=768ms status=200 bytes=5836 protocol=https
+2017-10-03T03:22:07.965070+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   [1m[36mQuestion Load (1.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."user_id" = $1 ORDER BY "questions"."created_at" DESC[0m  [["user_id", 4]]
+2017-10-03T03:22:07.968714+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendered questions/_question.html.erb (2.2ms)
+2017-10-03T03:22:07.969752+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendered questions/_question.html.erb (0.8ms)
+2017-10-03T03:22:07.970751+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendered questions/_question.html.erb (0.8ms)
+2017-10-03T03:22:07.971617+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendered questions/_question.html.erb (0.7ms)
+2017-10-03T03:22:07.971731+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d]   Rendered users/show.html.erb within layouts/application (636.9ms)
+2017-10-03T03:22:07.974684+00:00 app[web.1]: [db016b62-dbbb-4997-96cf-e104c6984a6d] Completed 200 OK in 746ms (Views: 639.6ms | ActiveRecord: 25.9ms)
+2017-10-03T03:22:09.651934+00:00 heroku[router]: at=info method=GET path="/assets/application-726127d72462f17838014a14f6832d72c4259465414ec9bbc7c9d73fd92cf66d.css" host=askror.herokuapp.com request_id=56cda528-585f-4fa9-af72-74945ae3ad85 fwd="95.55.40.116" dyno=web.1 connect=1ms service=2ms status=304 bytes=48 protocol=https
+2017-10-03T03:22:09.804386+00:00 heroku[router]: at=info method=GET path="/assets/application-eae14b775b80d6d0f533bbd6ecdef431f9714325a781826ea490a519d1719d13.js" host=askror.herokuapp.com request_id=d0c8adbc-66fd-44b3-8c28-b7427fc9ebca fwd="95.55.40.116" dyno=web.1 connect=1ms service=1ms status=304 bytes=48 protocol=https
+2017-10-03T03:22:30.537463+00:00 heroku[router]: at=info method=GET path="/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" host=askror.herokuapp.com request_id=b5f62fa8-9ad9-48d1-ab0e-ee96e35a5d42 fwd="95.55.40.116" dyno=web.1 connect=1ms service=1ms status=304 bytes=48 protocol=https
+2017-10-03T03:22:34.877666+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a] Started GET "/users/4/edit" for 95.55.40.116 at 2017-10-03 03:22:34 +0000
+2017-10-03T03:22:34.884976+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a]   Parameters: {"id"=>"4"}
+2017-10-03T03:22:34.884920+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a] Processing by UsersController#edit as HTML
+2017-10-03T03:22:34.980532+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a]   [1m[36mUser Load (13.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:22:34.941732+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a]   [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:22:34.986021+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a]   Rendering users/edit.html.erb within layouts/application
+2017-10-03T03:22:35.753084+00:00 heroku[router]: at=info method=GET path="/users/4/edit" host=askror.herokuapp.com request_id=07c4e6a9-6255-40ae-9d09-889ecd453e0a fwd="95.55.40.116" dyno=web.1 connect=0ms service=876ms status=200 bytes=4473 protocol=https
+2017-10-03T03:22:35.745046+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a]   Rendered users/edit.html.erb within layouts/application (758.9ms)
+2017-10-03T03:22:35.747211+00:00 app[web.1]: [07c4e6a9-6255-40ae-9d09-889ecd453e0a] Completed 200 OK in 862ms (Views: 764.5ms | ActiveRecord: 32.4ms)
+2017-10-03T03:24:37.149799+00:00 heroku[router]: at=info method=POST path="/users/4" host=askror.herokuapp.com request_id=0f25faaa-5988-458c-bde1-542fbdaeec79 fwd="95.55.40.116" dyno=web.1 connect=1ms service=20ms status=500 bytes=1827 protocol=https
+2017-10-03T03:24:37.134255+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79] Started DELETE "/users/4" for 95.55.40.116 at 2017-10-03 03:24:37 +0000
+2017-10-03T03:24:37.135078+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79] Processing by UsersController#destroy as HTML
+2017-10-03T03:24:37.135111+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   Parameters: {"authenticity_token"=>"dazYhTJ54Mer+NJQXE/E9w3jYsHZrPWlyezdT90EP/XkSL4QXkbvMvT9wD/GP3zYk742CWEGKluaZ/hAOHMoNw==", "id"=>"4"}
+2017-10-03T03:24:37.137646+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:24:37.138730+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:24:37.143297+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+2017-10-03T03:24:37.143987+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+2017-10-03T03:24:37.144211+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79] Completed 500 Internal Server Error in 9ms (ActiveRecord: 5.4ms)
+2017-10-03T03:24:37.139597+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+2017-10-03T03:24:37.144890+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   
+2017-10-03T03:24:37.144913+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79] ActiveRecord::InvalidForeignKey (PG::ForeignKeyViolation: ERROR:  update or delete on table "users" violates foreign key constraint "fk_rails_047ab75908" on table "questions"
+2017-10-03T03:24:37.144914+00:00 app[web.1]: DETAIL:  Key (id)=(4) is still referenced from table "questions".
+2017-10-03T03:24:37.144917+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79]   
+2017-10-03T03:24:37.144915+00:00 app[web.1]: : DELETE FROM "users" WHERE "users"."id" = $1):
+2017-10-03T03:24:37.144959+00:00 app[web.1]: [0f25faaa-5988-458c-bde1-542fbdaeec79] app/controllers/users_controller.rb:31:in `destroy'
+2017-10-03T03:26:51.446764+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417] Processing by UsersController#index as HTML
+2017-10-03T03:26:51.444644+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417] Started GET "/" for 95.55.40.116 at 2017-10-03 03:26:51 +0000
+2017-10-03T03:26:51.629059+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417]   [1m[36mUser Load (77.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+2017-10-03T03:26:51.450122+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417]   Rendering users/index.html.erb within layouts/application
+2017-10-03T03:26:51.634173+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417]   Rendered users/index.html.erb within layouts/application (183.6ms)
+2017-10-03T03:26:51.746669+00:00 heroku[router]: at=info method=GET path="/" host=askror.herokuapp.com request_id=dd5b5cac-8eb9-44a6-afa9-07a4ab057417 fwd="95.55.40.116" dyno=web.1 connect=99ms service=374ms status=200 bytes=3592 protocol=https
+2017-10-03T03:26:51.738002+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417]   [1m[36mUser Load (100.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:26:51.739151+00:00 app[web.1]: [dd5b5cac-8eb9-44a6-afa9-07a4ab057417] Completed 200 OK in 292ms (Views: 111.7ms | ActiveRecord: 178.1ms)
+2017-10-03T03:26:55.568951+00:00 heroku[router]: at=info method=GET path="/assets/avatar-2904384efa0710eeb7741c38869ea7019424809d8f69ba725a910fd0b2994b24.png" host=askror.herokuapp.com request_id=3cce6c76-e32f-4241-839c-cb248ef6226f fwd="95.55.40.116" dyno=web.1 connect=1ms service=2ms status=304 bytes=48 protocol=https
+2017-10-03T03:27:04.903969+00:00 heroku[router]: at=info method=GET path="/users/4" host=askror.herokuapp.com request_id=af1da3b7-0c33-433d-b911-c872759d814c fwd="95.55.40.116" dyno=web.1 connect=1ms service=69ms status=200 bytes=5836 protocol=https
+2017-10-03T03:27:04.831327+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c] Started GET "/users/4" for 95.55.40.116 at 2017-10-03 03:27:04 +0000
+2017-10-03T03:27:04.832325+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c] Processing by UsersController#show as HTML
+2017-10-03T03:27:04.832371+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Parameters: {"id"=>"4"}
+2017-10-03T03:27:04.834538+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:04.877883+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "questions" WHERE "questions"."user_id" = $1[0m  [["user_id", 4]]
+2017-10-03T03:27:04.879613+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "questions" WHERE "questions"."user_id" = $1 AND ("questions"."answer" IS NOT NULL)[0m  [["user_id", 4]]
+2017-10-03T03:27:04.880898+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendering users/show.html.erb within layouts/application
+2017-10-03T03:27:04.884625+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:04.890360+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."user_id" = $1 ORDER BY "questions"."created_at" DESC[0m  [["user_id", 4]]
+2017-10-03T03:27:04.893301+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendered questions/_question.html.erb (1.8ms)
+2017-10-03T03:27:04.894045+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendered questions/_question.html.erb (0.6ms)
+2017-10-03T03:27:04.894707+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendered questions/_question.html.erb (0.5ms)
+2017-10-03T03:27:04.895344+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendered questions/_question.html.erb (0.5ms)
+2017-10-03T03:27:04.895428+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c]   Rendered users/show.html.erb within layouts/application (14.4ms)
+2017-10-03T03:27:04.896305+00:00 app[web.1]: [af1da3b7-0c33-433d-b911-c872759d814c] Completed 200 OK in 64ms (Views: 14.0ms | ActiveRecord: 9.0ms)
+2017-10-03T03:27:30.770396+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035] Started GET "/users/4/edit" for 95.55.40.116 at 2017-10-03 03:27:30 +0000
+2017-10-03T03:27:30.774576+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035] Processing by UsersController#edit as HTML
+2017-10-03T03:27:30.774638+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035]   Parameters: {"id"=>"4"}
+2017-10-03T03:27:30.785794+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035]   [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:30.787460+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:30.788435+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035]   Rendering users/edit.html.erb within layouts/application
+2017-10-03T03:27:30.792102+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035]   Rendered users/edit.html.erb within layouts/application (3.5ms)
+2017-10-03T03:27:30.793338+00:00 app[web.1]: [fbf091f4-523d-4039-a3ba-fb662c5a9035] Completed 200 OK in 19ms (Views: 5.2ms | ActiveRecord: 4.4ms)
+2017-10-03T03:27:30.800435+00:00 heroku[router]: at=info method=GET path="/users/4/edit" host=askror.herokuapp.com request_id=fbf091f4-523d-4039-a3ba-fb662c5a9035 fwd="95.55.40.116" dyno=web.1 connect=1ms service=30ms status=200 bytes=4473 protocol=https
+2017-10-03T03:27:39.313333+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70] Started DELETE "/users/4" for 95.55.40.116 at 2017-10-03 03:27:39 +0000
+2017-10-03T03:27:39.329882+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70] Processing by UsersController#destroy as HTML
+2017-10-03T03:27:39.329923+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   Parameters: {"authenticity_token"=>"8JhruGAcs476UbIjaHMwXHkiREEf3UFF5YB+9qdaHeBhfA0tDCO8e6VUoEzyA4hz538Qiad3nru2C1v5Qi0KIg==", "id"=>"4"}
+2017-10-03T03:27:39.341836+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:39.349824+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   [1m[36mUser Load (7.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+2017-10-03T03:27:39.353775+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   [1m[35m (3.3ms)[0m  [1m[35mBEGIN[0m
+2017-10-03T03:27:39.362229+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   [1m[35mSQL (7.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+2017-10-03T03:27:39.365774+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   [1m[35m (3.3ms)[0m  [1m[31mROLLBACK[0m
+2017-10-03T03:27:39.366070+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70] Completed 500 Internal Server Error in 36ms (ActiveRecord: 24.6ms)
+2017-10-03T03:27:39.367253+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   
+2017-10-03T03:27:39.367295+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70] ActiveRecord::InvalidForeignKey (PG::ForeignKeyViolation: ERROR:  update or delete on table "users" violates foreign key constraint "fk_rails_047ab75908" on table "questions"
+2017-10-03T03:27:39.367296+00:00 app[web.1]: DETAIL:  Key (id)=(4) is still referenced from table "questions".
+2017-10-03T03:27:39.367297+00:00 app[web.1]: : DELETE FROM "users" WHERE "users"."id" = $1):
+2017-10-03T03:27:39.367330+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70]   
+2017-10-03T03:27:39.367372+00:00 app[web.1]: [979a2f96-c367-46e5-8dca-d1fae0482e70] app/controllers/users_controller.rb:31:in `destroy'
+2017-10-03T03:27:39.373946+00:00 heroku[router]: at=info method=POST path="/users/4" host=askror.herokuapp.com request_id=979a2f96-c367-46e5-8dca-d1fae0482e70 fwd="95.55.40.116" dyno=web.1 connect=2ms service=70ms status=500 bytes=1827 protocol=https

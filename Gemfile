@@ -26,7 +26,7 @@ gem 'font-awesome-rails'
 gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
 
 gem 'validate_url'
-
+gem 'carrierwave', '~> 1.1'
 group :production do
   gem 'pg'
 end
